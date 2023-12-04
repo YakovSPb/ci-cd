@@ -7,7 +7,10 @@ function App() {
   return (
     <div className="App">
       <h1>value = {state}</h1>
-      <button onClick={increment}>
+      <button
+          style={{background: 'black', color: 'white', padding: 15}}
+          onClick={increment}
+      >
         increment
       </button>
     </div>
