@@ -6,6 +6,7 @@ function App() {
   const increment = setState(prev=>prev+1)
   return (
     <div className="App">
+        <h1>learn ci-cd</h1>
       <h1>value = {state}</h1>
       <button onClick={increment}>
         increment
