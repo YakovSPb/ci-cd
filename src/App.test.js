@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn z/i);
+  const linkElement = screen.getByText('increment').closest('button')
   expect(linkElement).toBeInTheDocument();
 });
