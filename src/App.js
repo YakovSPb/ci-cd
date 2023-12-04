@@ -2,14 +2,13 @@ import './App.css';
 import {useState} from "react";
 
 function App() {
-  const [state, setState] = useState(0)
-  const increment = setState(prev=>prev+1)
+
   return (
     <div className="App">
-      <h1>value = {state}</h1>
+      <h1>Hello from Yakov</h1>
       <button
           style={{background: 'black', color: 'white', padding: 15}}
-          onClick={increment}
+          onClick={()=> alert('helloWord')}
       >
         increment
       </button>
